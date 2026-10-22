@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 15px;
+}
+
+.photo {
+  background-image: linear-gradient(rgba(128, 128, 128, 0.2), rgba(128, 128, 128, 0.2)), url("WA0067.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+  padding: 17px;
+  border-radius: 7px;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 15px auto;
+  text-shadow: 0 0 5px yellow;
+}
+
+p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 15px auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 10px 7px;
+  display: block;
+  max-width: 200px;
+}
+
+a:active {
+  background-color: blue;
+}
+
+h2 {
+  background-color: orange;
+  color: yellow;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 15px auto;
+  padding: 12px 8px;
+  border-radius: 5px;
+}
+
+.list-bad, .list-good {
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.list-good {
+  border: 2px solid green;
+}
+
+li {
+  color: blue;
+  margin: 7px 0;
+  font-size: 1.27rem;
+}
+
+.item-special {
+  color: red;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  display: block;
+  object-fit: cover;
+  margin: 25px auto;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 2px solid yellow;
+  text-align: center;
+}
