@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2.6rem;
+  color: blue;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.index-one {
+  color: red;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 20px auto;
+  border-bottom: 2px solid #fff;
+}
+
+.page-buy {
+  background-color: #111;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  color: #fff;
+  display: block;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form {
+  width: 100%;
+  height: auto;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px auto;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  margin: 12px auto;
+}
+
+fieldset {
+  margin: 18px 0;
+  border: 2px solid #fff;
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+legend {
+  padding: 15px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input, select {
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  margin: 10px auto;
+  padding: 12px 17px;
+  text-align: left;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.25rem;
+  background-color: #000;
+}
+
+option {
+  background-color: #000;
+  color: #fff;
+}
+
+label {
+  font-size: 1.25rem;
+  line-height: 2;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  width: auto;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  max-width: 180px;
+  padding: 14px 24px;
+  margin: 15px auto;
+  border-radius: 4px;
+  border: none;
+  transition: opacity 0.2s;
+}
+
+div {
+  border: 3px solid red;
+  border-radius: 6px;
+  margin: 15px auto;
+  padding: 17px;
+  max-width: 600px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 5px;
+  display: block;
+  padding: 12px 6px;
+  font-size: 1.2rem;
+  max-width: 250px;
+}
+
+p {
+  color: yellow;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.2rem;
+}
+
+video {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 7px;
+  margin: 20px auto;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid #fff;
+}
